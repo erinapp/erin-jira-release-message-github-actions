@@ -1,0 +1,30 @@
+name: "Erin JIRA Release Message GitHub Actions"
+description: "Get Release Message from JIRA Cards"
+inputs:
+  jira_base_url: # id of input
+    description: "JIRA Base URL"
+    required: true
+  jira_username: # id of input
+    description: "JIRA Username"
+    required: true
+  jira_token: # id of input
+    description: "JIRA token"
+    required: true
+  jira_project_name: # id of input
+    description: "JIRA Project Name"
+    required: true
+  jira_target_status: # id of input
+    description: "JIRA Target Status"
+    required: true
+  jira_target_label_field:
+    description: "JIRA Target Label Field"
+    requeired: true
+  jira_target_label:
+    description: "JIRA Target Label"
+    requeired: true
+outputs:
+  newReleaseMessage: # id of output
+    description: "New Release Message"
+runs:
+  using: "node16"
+  main: "index.js"
