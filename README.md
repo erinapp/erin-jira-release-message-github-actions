@@ -41,5 +41,5 @@ Create a .yml file on `.github/workflows/` directory with
 Then on your GitHub repository page, go to Settings tab then put your preference secrets there
 
 <p align="center">
-<img width="600" alt="Secrets Screenshot" src="https://user-images.githubusercontent.com/39117076/189289451-25488274-5fb8-4bf0-ab8b-eaed08f64d12.png">
+<img width="800" src="https://user-images.githubusercontent.com/39117076/189571376-d0e10d67-8fc8-4c80-a53a-da7def0b3e03.png">
 </p>
